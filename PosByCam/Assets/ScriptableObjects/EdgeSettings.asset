@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4bf47e2d094d64aab722436c31ba59, type: 3}
+  m_Name: EdgeSettings
+  m_EditorClassIdentifier: 
+  getRedChannelOnly: 0
+  canny1: 5
+  canny2: 5
+  blurEnabled: 0
+  blurSize1: 10
+  blurSize2: 100
+  thresholdEnabled: 0
+  threshold: 0
+  thresholdMax: 255
+  adaptiveThresholdEnabled: 1
+  adaptiveMax: 255
+  adaptiveBlockSize: 11
+  adaptiveC: 2
+  thresholdType: 1
+  adaptiveThresholdType: 1
+  dilateEnabled: 1
